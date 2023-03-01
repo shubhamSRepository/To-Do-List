@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://images.unsplash.com/photo-1506968430777-bf7784a87f23?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHRhYmxlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-size: cover;
+}
+
+#base-page {
+    height: auto;
+    width: 50vw;
+    margin-top: 1%;
+    background-color: hwb(216 98% 0% / 0.808);
+    border-radius: 0.375rem;
+}
+
+header h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+#add-task {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+#add-task textarea {
+    width: 80%;
+    border-radius: 0.375rem;
+    resize: none;
+    border: none;
+    background-color: rgba(255, 247, 211, 0.916);
+    box-shadow: 1px 1px 10px grey;
+    padding: .5rem 0.75rem;
+    font-size: 1rem;
+    margin: 0 0 0 2%;
+}
+
+#add-task button {
+    background-color: rgb(218, 27, 27);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0.375rem;
+    font-weight: 700;
+    margin: 0 2% 0 2%;
+}
+
+#add-task button:hover {
+    background-color: rgb(204, 5, 5);
+}
+
+
+#totalTasks {   
+    margin-bottom: 2%;
+    padding-right: 2%;
+    text-align: end;
+}
+
+
+.divOutermost-style {
+    /* this class will be executed directly through javaScipt as html element over which we
+     want to apply this class will be created after click event  */
+
+    display: flex;
+    background-color: hwb(216 98% 0% / 0.542);
+    margin-bottom: 2%;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.checkBox {
+    /* this class will be executed directly through javaScipt as html element over which we
+     want to apply this class will be created after click event  */
+
+    height: 25px;
+    width: 25px;
+}
+
+
+.divTaskText {
+    /* this class will be executed directly through javaScipt as html element over which we
+     want to apply this class will be created after click event  */
+
+    width: 90%;
+    padding: 0 0.5rem;
+}
+
+
+
+.divDeleteBtn {
+    /* this class will be executed directly through javaScipt as html element over which we
+     want to apply this class will be created after click event  */
+
+    display: flex;
+    align-items: center;
+    padding-right: 1%;
+}
+
+.deleteButton {
+    /* this class will be executed directly through javaScipt as html element over which we
+     want to apply this class will be created after click event  */
+
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 150%;
+    border: none;
+    color: red;
+}
+
+.deleteButton:hover {
+    /* this class will be executed directly through javaScipt as html element over which we
+     want to apply this class will be created after click event  */
+
+    background-color: red;
+    border: none;
+    color: white;
+
+}
+
+
+.animate1 {
+    /* this class will be executed directly through javaScipt as html element over which we
+     want to apply this class will be created after click event  */
+
+    transform: translateX(100%);
+    visibility: hidden;
+}
+
+.animate2 {
+    /* this class will be executed directly through javaScipt as html element over which we
+     want to apply this class will be created after click event  */
+
+    transition-duration: 0.5s;
+}
