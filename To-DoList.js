@@ -64,7 +64,7 @@ function addTask() {
     // adding event listener to delete-button to delete existing task
 
     var deleteButton = divOutermost.getElementsByClassName('deleteButton')[0];
-   
+    
     deleteButton.addEventListener('click', function () {
         divOutermost.classList.add("animate1");
 
